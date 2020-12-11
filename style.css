@@ -63,3 +63,7 @@
 	background-color: antiquewhite;
 	color: black;
 }
+.head{text-align: center; color: black;font-family: 'Courier New', Courier, monospace; font-size: 36pt;}
+#aboutli{font-size: 28pt;}
+.aboutp{font-size: 24pt;text-align: center;}
+body{border: 6px black solid;}
