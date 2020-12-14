@@ -72,17 +72,11 @@ body{border: 6px black solid;}
 .dropdown-button:hover {
 	background-color: antiquewhite;
 	color: black;
-<<<<<<< HEAD
-}
-												/* Titles and pics on home and about page */
-=======
 }											/*end of nav/dropdown */
->>>>>>> d157f2f2cc1da1f956be10f3be92a8a4e9b53d89
 .head{text-align: center; color: black;font-family: 'Courier New', Courier, monospace; font-size: 36pt;}
 #aboutli{font-size: 28pt;}
 .aboutp{font-size: 24pt;text-align: center;}
 
-<<<<<<< HEAD
 .grid-container {
 	display: grid;
 margin-top: 5%;
@@ -128,5 +122,23 @@ box-sizing: border-box;
 text-align: center;
 
 }
-=======
->>>>>>> d157f2f2cc1da1f956be10f3be92a8a4e9b53d89
+.developer{
+	width: 350px;
+ display:inline-block;
+ margin: 0 20px;
+ transition: 10s 20px rgba(0, 0, 0, 0.7);
+}
+
+.developer:hover{
+	transform: translateY(-30px);
+	box-shadow: 0 3px 10px;
+}
+.develoeper .card {
+position: relative;
+overflow: hidden;
+width: 350px;
+margin: 0, auto;
+background-color: white;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;
