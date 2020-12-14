@@ -1,0 +1,153 @@
+* {
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+body{
+    border: 6px black solid;
+    text-align: center;
+}
+.nav-box {                                            /* Nav */
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logo {
+	max-width: 5vw;
+	max-height: 5vh;
+	margin: 1vh 1vh 1vh 1vh;
+}
+.nav-button {
+    display: inline-block;
+	padding: 2vh 5vw;
+	background-color: black;
+	color: antiquewhite;
+	font-size: 1em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+    margin: 1vh 2vw 1vh 1vw;
+}
+.nav-button:hover {
+	background-color: antiquewhite;
+	color: black;
+}                                                    /* dropdown stuff */
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 2em;
+    min-width: 200px;
+    padding: 10px;
+}
+.dropdown-content a:hover{
+    background-color: antiquewhite;
+    
+}
+.dropdown-button {
+	padding: 2vh 5vw;
+	background-color: black;
+	color: antiquewhite;
+	font-size: 1em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+    margin: 1vh 2vw 1vh 1vw;
+}
+.dropdown-button:hover {
+	background-color: antiquewhite;
+	color: black;
+}		                                           /*end of nav/dropdown*/
+.margin-box{
+    margin: 1vh 2vw 5vh 2vw;   
+    /* so the text doesn't squish against the sides of the viewport */
+}
+.gameroom-heading{                                        
+
+}
+.gameroom-desc{
+
+}
+.grid-container{                                        /*grid stuff for the game room lkinks*/
+    margin: auto;
+    border: 5px solid black;
+    height: 50vh;
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+}
+.grid-item-library{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.library{
+    text-decoration: none;
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+}
+.library:hover{
+    color: black;
+}
+.grid-item-multiplayer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.multiplayer{
+    text-decoration: none;
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+}
+.multiplayer:hover{
+    color: black;
+}
+.grid-item-leaderboard{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.leaderboard{
+    text-decoration: none;
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+}
+.leaderboard:hover{
+    color: black;
+}                                       /* end of game room links*/
