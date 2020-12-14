@@ -73,9 +73,9 @@
 .grid-container {
 	display: grid;
 margin-top: 5%;
-margin-right: 20px;
-margin-left: 20px;
-	grid-template-columns:1fr 1fr ;
+margin-right: 2px;
+margin-left: 2px;
+	grid-template-columns:1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr ;
 	gap: 0fr 0fr;
 	grid-template-areas:
