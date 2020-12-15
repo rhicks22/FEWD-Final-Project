@@ -5,6 +5,10 @@
 body{
     border: 6px black solid;
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
 }
 .nav-box {                                            /* Nav */
 	display: flex;
@@ -75,26 +79,17 @@ body{
 	color: black;
 }		                                           /*end of nav/dropdown*/
 .margin-box{
-    margin: 1vh 2vw 5vh 2vw;   
+    margin: 1vh 2vw 5vh 2vw;
     /* so the text doesn't squish against the sides of the viewport */
 }
-.gameroom-heading{                                        
-
-}
-.gameroom-desc{
-
-}
-.grid-container{                                        /*grid stuff for the game room lkinks*/
-    margin: auto;
-    border: 5px solid black;
-    height: 50vh;
+.grid-container{                                     /*grid stuff for the game room lkinks*/
+    margin: 5vh 5vw 5vh 5vw;
+    min-height: 50vh;
     width: 80%;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
-
 }
 .grid-item-library{
     grid-column-start: 1;
@@ -104,7 +99,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    padding-right: 5vw;
 }
 .library{
     text-decoration: none;
@@ -123,6 +118,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 5vw;
 }
 .multiplayer{
     text-decoration: none;
@@ -141,6 +137,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 5vw;
 }
 .leaderboard{
     text-decoration: none;
@@ -151,3 +148,42 @@ body{
 .leaderboard:hover{
     color: black;
 }                                       /* end of game room links*/
+@media (max-width: 1000px){             /*makes the grid responsive*/
+.grid-container{                                        
+    margin: 5vh 5vw 5vh 5vw;
+    min-height: 50vh;
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.grid-item-library{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.grid-item-multiplayer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.grid-item-leaderboard{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+}
