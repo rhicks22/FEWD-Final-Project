@@ -1,3 +1,5 @@
+
+
 * {
     background-color: darkgreen;
     color: antiquewhite;
@@ -75,3 +77,68 @@ body{border: 6px black solid;}
 #aboutli{font-size: 28pt;}
 .aboutp{font-size: 24pt;text-align: center;}
 
+.grid-container {
+	display: grid;
+margin-top: 5%;
+margin-right: 2px;
+margin-left: 2px;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	gap: 0fr 0fr;
+	grid-template-areas:
+	  ". . "
+	  ". . ";
+  }
+  													/* Testimonial Cards */
+  section {
+	position: relative;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+
+}
+
+  .testimonial{
+	   width: 350px;
+	display:inline-block;
+	margin: 0 20px;
+	transition: 10s 20px rgba(0, 0, 0, 0.7);
+}
+  
+.testimonial:hover{
+	transform: translateY(-30px);
+	box-shadow: 0 3px 10px;
+}
+.testimonial .card {
+position: relative;
+overflow: hidden;
+width: 350px;
+margin: 0, auto;
+background-color: white;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;
+
+}
+.developer{
+	width: 350px;
+ display:inline-block;
+ margin: 0 20px;
+ transition: 10s 20px rgba(0, 0, 0, 0.7);
+}
+
+.developer:hover{
+	transform: translateY(-30px);
+	box-shadow: 0 3px 10px;
+}
+.develoeper .card {
+position: relative;
+overflow: hidden;
+width: 350px;
+margin: 0, auto;
+background-color: white;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;
