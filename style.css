@@ -141,4 +141,12 @@ margin: 0, auto;
 background-color: white;
 padding: 20px;
 box-sizing: border-box;
-text-align: center;
+text-align: center;}
+
+											/* LOGIN */
+		#login{margin: 0;
+		padding: 0%;
+	background: url(https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+background-position: center;
+font-family: 'Courier New', Courier, monospace;}									
