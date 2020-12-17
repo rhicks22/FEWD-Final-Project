@@ -71,3 +71,37 @@ body{border: 6px black solid;}
 	background-color: antiquewhite;
 	color: black;
 }											/*end of nav/dropdown */
+
+.grid-container{ display:grid; 
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr ;
+	position: relative;
+	gap: 2%;
+	top: 25%;
+	left:center;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+
+
+}
+.abouts{ font-size: 38;
+color: black;
+text-align: center;
+text-emphasis: bold;}
+
+
+
+button{ font-size: 20pt;
+align-items: center;
+border-radius: 5px black solid;
+}
+.aboutb{ font-size: 30pt;
+color: white;
+border: 6px white dotted;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
