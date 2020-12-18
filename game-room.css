@@ -83,7 +83,7 @@ body{
     /* so the text doesn't squish against the sides of the viewport */
 }
 .grid-container{                                     /*grid stuff for the game room lkinks*/
-    margin: 5vh 5vw 5vh 5vw;
+    margin: 5vh 10vw 5vh 10vw;
     min-height: 50vh;
     width: 80%;
     padding: 10px;

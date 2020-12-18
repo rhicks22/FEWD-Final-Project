@@ -4,7 +4,10 @@
     background-color: darkgreen;
     color: antiquewhite;
 }
-body{border: 6px black solid;}
+body{
+	border: 6px black solid;
+	min-height: 95vh;
+}
 .nav-box {                                            /* Nav */
 	display: flex;
 	justify-content: space-evenly;
@@ -73,84 +76,69 @@ body{border: 6px black solid;}
 	background-color: antiquewhite;
 	color: black;
 }											/*end of nav/dropdown */
-.head{text-align: center; color: black;font-family: 'Courier New', Courier, monospace; font-size: 36pt;}
-#aboutli{font-size: 28pt;}
-.aboutp{font-size: 24pt;text-align: center;}
-
-.grid-container {
-	display: grid;
-margin-top: 5%;
-margin-right: 2px;
-margin-left: 2px;
-	grid-template-columns:1fr 1fr 1fr ;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	gap: 0fr 0fr;
-	grid-template-areas:
-	  ". . "
-	  ". . ";
-  }
-  													/* Testimonial Cards */
-  section {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	justify-content: center;
-
-}
-
-  .testimonial{
-	   width: 350px;
-	display:inline-block;
-	margin: 0 20px;
-	transition: 10s 20px rgba(0, 0, 0, 0.7);
-}
-  
-.testimonial:hover{
-	transform: translateY(-30px);
-	box-shadow: 0 3px 10px;
-}
-.testimonial .card {
-position: bottom;
-overflow: hidden;
-width: 350px;
-margin: 0, auto;
-background-color: white;
-padding: 20px;
-box-sizing: border-box;
+.heading{
 text-align: center;
-
+ color: black;
+ font-family: 'Courier New', Courier, monospace;
+  font-size: 36pt;
 }
-.developer{
-	width: 350px;
- display:inline-block;
- margin: 0 20px;
- transition: 10s 20px rgba(0, 0, 0, 0.7);
+.login{
+	color: antiquewhite;
+}
+form{
+	margin: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+input{
+	max-width: 40vw;
+	height: 5vh;
+	font-size: 1.5em;
+}
+.login-button {
+	padding: 2vh 15vw;
+	background-color: black;
+	color: antiquewhite;
+	font-size: 1.2em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	margin: 1vh 2vw 1vh 1vw;
+}
+.signup-button {
+	padding: 2vh 15vw;
+	background-color: black;
+	color: antiquewhite;
+	font-size: 1.2em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	margin: 1vh 2vw 1vh 1vw;
+}
+.signup-button:hover {
+	background-color: antiquewhite;
+	color: black;
+}
+.login-button:hover {
+	background-color: antiquewhite;
+	color: black;
+}
+.box-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
 }
 
-.developer:hover{
-	transform: translateY(-30px);
-	box-shadow: 0 3px 10px;
-}
-.develoeper .card {
-position: relative;
-overflow: hidden;
-width: 350px;
-margin: 0, auto;
-background-color: white;
-padding: 20px;
-box-sizing: border-box;
-text-align: center;}
 
-											/* LOGIN */
-		#login{margin: 0;
-		padding: 0%;
-	background: url(https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-background-size: cover;
-background-position: center;
-font-family: 'Courier New', Courier, monospace;}		
-
-
-.user{ text-align: center;
-}
