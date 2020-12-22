@@ -71,3 +71,47 @@ body{border: 6px black solid;}
 	background-color: antiquewhite;
 	color: black;
 }											/*end of nav/dropdown */
+.friend-list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.friend-list h1{
+	font-size: 3em;
+}
+.friend-card{
+	padding: 5vh 2vw 5vh 2vw;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+}
+.friend-card *{
+	background-color: grey;
+}
+.online-friends{
+	display: flex;
+}
+.online-friends a{
+	text-decoration: none;
+	color: aqua;
+	font-size: 1.5em;
+	background-color: grey;
+	padding: 1vh;
+}
+.online-friends a:hover{
+	color: black;
+}
+.offline-friends{
+	display: flex;
+	flex-direction: column;
+}
+.offline-friends a{
+	text-decoration: none;
+	color: aqua;
+	font-size: 1.5em;
+	background-color: grey;
+	padding: 1vh;
+}
+.offline-friends a:hover{
+	color: black;
+}
