@@ -87,7 +87,10 @@ body{border: 6px black solid;}
 	left:center;
 	
 	
+	
 }
+
+.grid-container img{width: 100%;}
 .wording{text-align: center;
 font-size: 22pt;}
 
