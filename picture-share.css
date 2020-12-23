@@ -77,15 +77,23 @@ body{border: 6px black solid;}
 	grid-template-rows: 1fr 1fr 1fr 1fr ;
 	position: relative;
 	gap: 1%;
-	top: 20%;
+	/* top: 20%; */
 	left:center;
 	margin-left: 20px;
 	margin-right: 20px;
-
-
+	margin-top: 20px;
 
 
 }
+
+.grid-container img{width: 100%;}
+.info{ font-size: 30pt;
+	color: black;
+	text-align: center;
+	border: 2px black solid	;
+	}
+	.grid-container .aboutp{width: 100%;}
+
 .abouts{ font-size: 38;
 color: black;
 text-align: center;

@@ -88,9 +88,13 @@ body{border: 6px black solid;}
 .card span{
 	color: aqua;
 }
-.h1{
-	text-align: center;
-}
+
+.info{ font-size: 30pt;
+		color: black;
+		text-align: center;
+		border: 2px black solid	;
+		}
+
 .h2{
 	text-align: center;
 }
